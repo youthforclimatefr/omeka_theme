@@ -36,7 +36,7 @@
   <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
   
   <link rel="stylesheet" type="text/css" href="https://prod.library.gvsu.edu/libs/fonts/fonts.css" />
-  <link rel="stylesheet" type="text/css" href="https://www.gvsu.edu/cms4/skeleton/0/files/css/cms4.0.min[1476194149000].css" />
+  <link rel="stylesheet" type="text/css" href="https://prod.library.gvsu.edu/stylesheets_temp/cms4.0.min.css" />
 
 <!-- Stylesheets -->
   <?php
