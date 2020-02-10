@@ -1,6 +1,5 @@
 <!--code to generate the simple search box.  -->
 <?php echo $this->form('search-form', $options['form_attributes']); ?>
-<?php echo print_r($filters); ?>
 <?php 
 	//check to see if we are on a collections browse page, if so, extract collection name so we 
 	//can scope searches
