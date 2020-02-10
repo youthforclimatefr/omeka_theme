@@ -1,8 +1,37 @@
 <!--code to generate the simple search box.  -->
 <?php echo $this->form('search-form', $options['form_attributes']); ?>
+<?php echo print_r($filters); ?>
+<?php 
+	//check to see if we are on a collections browse page, if so, extract collection name so we 
+	//can scope searches
+	$collectionTitle = "";
+	$collFacet = "";
+	try{
+		$collectionTitle = strip_formatting(metadata('collection', array('Dublin Core', 'Title'))); 
+		$collFacet = str_replace(" ", "+", $collectionTitle);
+	} catch (Exception $e) {
+		//fail silently
+	}
 
-    <label for="query" style="">Search all digital collections:</label>
+	if ($collectionTitle != "") {
+		$label = "Search " . $collectionTitle . " collection:"; 
+	} else {
+		$label = "Search all digital collections:";
+	}
+?>
+
+
+    <label for="query" style=""><?php echo $label;  ?></label>
     <?php echo $this->formText('query', $filters['query'], array('title' => __('Search'))); ?>
+	<?php 
+		if ($collFacet != "") {
+			echo "<input type=\"hidden\" id=\"facet\" name=\"facet\" value=\"collection:'" . $collectionTitle . "'\"/>";
+	}
+
+
+	?>
+
+
  <?php echo $this->formButton('submit_search', $options['submit_value'], array('type' => 'submit')); ?>
 	<?php //echo link_to_item_search(__('Advanced Search')); ?>
     <div id="advanced-form">
