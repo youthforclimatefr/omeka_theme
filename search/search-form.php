@@ -1,6 +1,9 @@
 <!--code to generate the simple search box.  -->
 <?php echo $this->form('search-form', $options['form_attributes']); ?>
 <?php 
+	
+
+	$TableOptions = get_table_options('Collection');
 	//check to see if we are on a collections browse page, if so, extract collection name so we 
 	//can scope searches
 	$collectionTitle = "";
@@ -23,9 +26,22 @@
     <label for="query" style=""><?php echo $label;  ?></label>
     <?php echo $this->formText('query', $filters['query'], array('title' => __('Search'))); ?>
 	<?php 
-		if ($collFacet != "") {
-			echo "<input type=\"hidden\" id=\"facet\" name=\"facet\" value=\"collection:'" . $collectionTitle . "'\"/>";
-	}
+		echo "<label for=\"collections\">Limit to Collection</label>";
+		echo "<select name=\"facet\">"; 
+		foreach ($TableOptions as $collection) {
+			if ($collection == "Select Below ") {
+			echo "<option value=\"collection:*\"";
+			} else {
+				echo "<option value=\"collection:'$collection'\"";
+			}
+			if ($collectionTitle == $collection) {
+			echo " selected ";
+			}
+			echo ">$collection</option>";
+		}
+		echo "</select>";
+			//echo "<input type=\"hidden\" id=\"facet\" name=\"facet\" value=\"collection:'" . $collectionTitle . "'\"/>";
+	
 
 
 	?>
