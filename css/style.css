@@ -9,6 +9,11 @@
     margin-bottom: .1em;
 }
 
+#search-form select {
+	margin: 20px;
+
+}
+
 .advanced-button {
     text-decoration: none;
     -moz-box-sizing: border-box;
