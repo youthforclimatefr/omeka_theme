@@ -26,7 +26,7 @@
     <label for="query" style=""><?php echo $label;  ?></label>
     <?php echo $this->formText('query', $filters['query'], array('title' => __('Search'))); ?>
 	<?php 
-		echo "<label for=\"collections\">Limit to Collection</label>";
+		echo "<label for=\"collections\" name=\"collLabel\">Limit to Collection</label>";
 		echo "<select name=\"facet\">"; 
 		foreach ($TableOptions as $collection) {
 			if ($collection == "Select Below ") {
