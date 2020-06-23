@@ -1,8 +1,8 @@
-# GVSU Omeka Theme
+# Youth for Climate Omeka Theme
 
-An Omeka theme for GVSU University Libraries, based on the GVSU CMS4 Template.
+Custom theme for Omeka made by Youth for Climate France, based on GVSU university.
 
-![GVSU Omeka Thumbnail](theme.jpg)
+![YFC Omeka Thumbnail](theme.jpg)
 
 ## Installation
 
@@ -10,4 +10,4 @@ Intall this theme in your Omeka theme directory, following the [instructions on 
 
 ## Support
 
-If you have questions, email Matthew Reidsma at [reidsmam@gvsu.edu](mailto:reidsmam@gvsu.edu).
+If you have questions, email the IT team at [internet@youthforclimate.fr](mailto:internet@youthforclimate.fr).

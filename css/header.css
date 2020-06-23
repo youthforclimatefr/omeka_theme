@@ -1,0 +1,45 @@
+#gvsu-cf_header{line-height:1.3em;height:6.25em}
+#gvsu-cf_header,#gvsu-cf_header *{padding:0;margin:0;font-size:12px;border:0;font-family:Arial,Helvetica,sans-serif;font-weight:400;text-decoration:none;border-radius:0;color:#000}
+#gvsu-cf_header a{color:#FFF}
+#gvsu-cf_header{background:#0065a4;width:100%;padding:1em 0}
+
+#gvsu-cf_header-inner{
+    /*behavior:url(/includes/topbanner/3/display-table.min[0].htc);*/
+    -dt-border-spacing:0;
+    border-spacing:0;
+    width: 979px;
+    margin:0 auto;
+    display:table;
+    border-collapse:collapse
+}
+#gvsu-cf_header-logo,#gvsu-cf_header-search{-dt-display:table-cell;display:table-cell;vertical-align:middle}
+#gvsu-cf_header-logo{width:40%}
+#gvsu-cf_header-search{text-align:right;width:60%}
+#gvsu-cf_header-logo img{max-width:100%}
+.gvsu-cf_header-clear{clear:both}
+#gvsu-cf_header-search-input{position:relative}
+#gvsu-cf_header-search-input-text{box-sizing:border-box;padding:.75em 3em .75em .5em;width:50%;border:1px solid #CCC;border:1px inset #CCC;background:#FFF}
+#gvsu-cf_header-search-input-submit{background-image:url(/themes/omeka_theme/img/search_submit.gif);background-color:transparent;background-position:center center;background-repeat:no-repeat;position:absolute;right:0;width:3em;padding:.75em 0;box-shadow:none;height:34px}
+#gvsu-cf_header-search-path,#gvsu-cf_header-search-path *{color:#FFF}
+#gvsu-cf_header-search-path{margin-top:.5em}
+#gvsu-cf_header-search-path label:first-child{margin-right:.5em}
+#gvsu-cf_header-search-path input{position:relative;top:-1px;background:0 0;margin-right:.25em}
+#gvsu-cf_header-search-siteindex{float:right;list-style:none;margin-bottom:.5em;display:block}
+#gvsu-cf_header-search-siteindex li{float:left;margin-left:2em}
+#gvsu-search_dropdown{text-align:left;border:1px solid #CCC}
+.gvsu-cf_header-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+@media screen and (min-width:0px){
+    #gvsu-cf_header.responsive{max-height:100%;height:auto}
+    #gvsu-cf_header.responsive #gvsu-cf_header-inner{width:100%;max-width:979px}
+}
+
+@media screen and (max-width:1003px){
+    #gvsu-cf_header.responsive #gvsu-cf_header-logo{padding-left:.25em}
+    #gvsu-cf_header.responsive #gvsu-cf_header-search{padding-right:.25em}}
+
+@media screen and (max-width:599px){
+    #gvsu-cf_header.responsive #gvsu-cf_header-logo,#gvsu-cf_header.responsive #gvsu-cf_header-search{width:50%}
+    #gvsu-cf_header.responsive #gvsu-cf_header-search-input-text{width:80%}
+    #gvsu-cf_header.responsive #gvsu-cf_header-search-path,#gvsu-cf_header.responsive #gvsu-cf_header-search-siteindex{display:none}
+}

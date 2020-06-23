@@ -1,11 +1,4 @@
-<div class="cms-clear"></div>
-<div id="cms-content-footer" role="footer">
-	<a href="https://prod.library.gvsu.edu/status/?problem" class="cms-report-problem" id="problem-link">report a problem with this page</a>
-	<script>
-		var thisUrl = encodeURIComponent(window.location);
-		document.getElementById('problem-link').href = 'https://prod.library.gvsu.edu/status/?problem&url=' + thisUrl;
-	</script>
-</div>
+
 </div>
 
 <!-- end content -->
@@ -18,54 +11,23 @@
 	<div id="cms-footer">
 		<div id="cms-footer-inner">
 			<ul>
-			<li><h4>Address</h4>
-
-			<p class="vcard">
-			<address class="adr">
-
-			<span class="fn">Special Collections and</span>
-			<br>
-
-			<span class="fn">University Archives</span>
-			<br>
-
-			<span class="street-address">Seidman House</span>
-			<br>
-
-			<span class="street-address">1 Campus Drive</span>
-			<br>
-
-			<span class="locality">Allendale</span>,
-
-			<span class="region">Michigan</span>
-
-			<span class="postal-code ">49401</span>
-			<br>
-
-			</address>
-			</p>
-
-			</li>
-
 			<li>
-
-			<h4>Contact</h4>
-
-			<p class="vcard">
-
-			<span class="tel">
-			<span class="type">Phone</span>:
-			<span class="value">
-			<a href="tel:616-331-2749">(616) 331-2749</a>
-			</span>
-			</span>
-			<br>
-
-			<a href="mailto:collections@gvsu.edu" class="email">collections@gvsu.edu</a>
-			<br>
-
-			</p>
-
+				<h4>Bibliothèque</h4>
+				<p class="vcard">
+				La bilbiothèque est maintenue par des jeunes de Youth for Climate France.
+				</p>
+			</li>
+			<li>
+				<h4>Contact</h4>
+				<p class="vcard">
+				<a href="mailto:internet@youthforclimate.fr" class="email">internet@youthforclimate.fr</a>
+				</p>
+			</li>
+			<li>
+				<h4>Sur Discord</h4>
+				<p class="vcard">
+				<a href="https://discord.gg/3U9Xwgy" class="email">Rejoignez notre espace de discussions et proposez vos ressources</a>
+				</p>
 			</li>
 
 			</ul>
@@ -80,23 +42,20 @@
 
 			<ul>
 				<li>
-					<a href="https://www.gvsu.edu/affirmativeactionstatement.htm">GVSU is an EO/AA Institution</a>
+					<a href="https://youthforclimate.fr">Yotuh for Climate France</a>
 				</li>
 				<li>
-					<a href="https://www.gvsu.edu/privacystatement.htm">Privacy Policy</a>
+					<a href="https://youthforclimate.fr/mentions-legales/">Mentions légales</a>
 				</li>
 				<li>
-					<a href="https://www.gvsu.edu/disclosures">Disclosures</a>
-				</li>
-				<li>
-					Copyright © 1995-2016 GVSU
+					Copyright © 2019-2020
 				</li>
 			</ul>
 		</div>
 	</div>
 </div>
 
-<script src="/themes/gvsu/javascripts/gvsu_scripts.js"></script>
+<script src="/themes/omeka_theme/javascripts/gvsu_scripts.js"></script>
 
 </body>
 
