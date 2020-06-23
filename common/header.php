@@ -24,8 +24,8 @@
 
   <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
   
-  <link rel="stylesheet" type="text/css" href="https://prod.library.gvsu.edu/libs/fonts/fonts.css" />
-  <link rel="stylesheet" type="text/css" href="https://prod.library.gvsu.edu/stylesheets_temp/cms4.0.min.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/omeka_theme/css/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="/themes/omeka_theme/css/cms4.0.min.css" />
 
 <!-- Stylesheets -->
   <?php
