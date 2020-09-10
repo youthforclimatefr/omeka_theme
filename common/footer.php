@@ -26,7 +26,7 @@
 			<li>
 				<h4>Sur Discord</h4>
 				<p class="vcard">
-				<a href="https://discord.gg/3U9Xwgy" class="email">Rejoignez notre espace de discussions et proposez vos ressources</a>
+				Rejoignez notre <a href="https://discord.gg/3U9Xwgy" class="email">espace de discussions</a> et proposez vos ressources
 				</p>
 			</li>
 
@@ -42,7 +42,7 @@
 
 			<ul>
 				<li>
-					<a href="https://youthforclimate.fr">Yotuh for Climate France</a>
+					<a href="https://youthforclimate.fr">Youth for Climate France</a>
 				</li>
 				<li>
 					<a href="https://youthforclimate.fr/mentions-legales/">Mentions légales</a>
